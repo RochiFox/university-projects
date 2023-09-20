@@ -62,17 +62,17 @@ public class Lab02 {
 
         int kx1, kx2, kx3;
 
-        kx1 = someNumbers / 10000;
-        kx2 = (someNumbers % 1000) / 100;
-        kx3 = someNumbers % 10;
+        kx1 = someNumbers / 10000; // 1
+        kx2 = (someNumbers % 1000) / 100; // 3
+        kx3 = someNumbers % 10; // 5
 
-        sumSomeNumbers = kx1 + kx2 + kx3;
+        sumSomeNumbers = kx1 + kx2 + kx3; // 9
 
         System.out.println("The sum of int in non-paried is: " + sumSomeNumbers);
 
         // Task 9
         System.out.println("Task 9");
-        System.out.println(Math.sqrt(sumSomeNumbers));
+        System.out.println(Math.sqrt(sumSomeNumbers)); // 3
 
         // Task 10
         System.out.println("Task 10");
@@ -89,6 +89,6 @@ public class Lab02 {
             bigNumber /= 10;
         }
 
-        System.out.println(sumBigNumber);
+        System.out.println(sumBigNumber); // 16
     }
 }
