@@ -89,12 +89,16 @@ public class Lab05 {
 
         if (grade >= 90) {
             System.out.println("The grade is A");
-        } else if (grade >= 74) {
+        } else if (grade >= 80) {
             System.out.println("The grade is B");
-        } else if (grade >= 60) {
+        } else if (grade >= 65) {
             System.out.println("The grade is C");
-        } else if (grade >= 44) {
+        } else if (grade >= 55) {
             System.out.println("The grade is D");
+        } else if (grade >= 50) {
+            System.out.println("The grade is E");
+        } else if (grade >= 35) {
+            System.out.println("The grade is FX");
         } else {
             System.out.println("The grade is F");
         }
