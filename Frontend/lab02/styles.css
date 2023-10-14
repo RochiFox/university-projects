@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.card {
+  width: 750px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__title {
+  color: rgb(224, 183, 187);
+  font-size: 48px;
+  margin: 30px;
+}
+
+.card__svg-image {
+  width: 16px;
+  height: 16px;
+}
+
+.card__subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+
+.card__info {
+  display: flex;
+}
+
+.card__image-block {
+  width: 380px;
+  height: 280px;
+  border-radius: 100%;
+  background-image: url(./assets/portrait.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 40px;
+}
+
+.card__info-block {
+  display: block;
+  margin: 70px;
+  width: 370px;
+  text-align: left;
+}
+
+.card__block-title {
+  text-transform: uppercase;
+  color: rgb(224, 183, 187);
+}
+
+.card__block-subtitle {
+  margin: 20px 0;
+  line-height: 1.4rem;
+}
+
+.card__block-subtitle_first {
+  width: 210px;
+}
+
+.card__block-subtitle_second {
+  width: 250px;
+}
+
+.card__info-line {
+  height: 8px;
+  width: 70%;
+  background-color: gray;
+}
