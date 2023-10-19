@@ -7,16 +7,16 @@ public class Lab05 {
         // Task A
         Scanner sc = new Scanner(System.in);
 
-        // int a = sc.nextInt();
+        int a = sc.nextInt();
 
-        // System.out.println(a*a); // Multiple two number
+        System.out.println(a*a); // Multiple two number
 
-        // String s1, s2;
+        String s1, s2;
 
-        // s1 = sc.next();
-        // s2 = sc.next();
+        s1 = sc.next();
+        s2 = sc.next();
 
-        // System.out.println(s2 + s1); // Added second number to first
+        System.out.println(s2 + s1); // Added second number to first
 
         // Task B
         // Task 1
