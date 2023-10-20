@@ -9,7 +9,7 @@ public class Lab05 {
 
         int a = sc.nextInt();
 
-        System.out.println(a*a); // Multiple two number
+        System.out.println(a * a); // Multiple two number
 
         String s1, s2;
 
@@ -89,13 +89,13 @@ public class Lab05 {
 
         if (grade >= 90) {
             System.out.println("The grade is A");
-        } else if (grade >= 80) {
+        } else if (grade >= 82) {
             System.out.println("The grade is B");
-        } else if (grade >= 65) {
+        } else if (grade >= 74) {
             System.out.println("The grade is C");
-        } else if (grade >= 55) {
+        } else if (grade >= 64) {
             System.out.println("The grade is D");
-        } else if (grade >= 50) {
+        } else if (grade >= 60) {
             System.out.println("The grade is E");
         } else if (grade >= 35) {
             System.out.println("The grade is FX");
