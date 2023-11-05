@@ -1,0 +1,50 @@
+@import "./../../assets/fonts/index.css";
+@import "./../../assets/colors/index.scss";
+
+.info {
+  &__background {
+    position: absolute;
+    top: 52px;
+    right: 0;
+    z-index: 2;
+  }
+
+  &__text {
+    z-index: 3;
+    width: 500px;
+    margin: 0 109px 75px 71px;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0 4px 5px $gray;
+    color: $lightBlack;
+  }
+
+  &__subtitle {
+    margin: 25px 0 35px 0;
+    color: $gray;
+    font-size: 18px;
+    line-height: 1.7rem;
+  }
+
+  &__btn {
+    background-color: $lightBlue;
+    color: $white;
+    width: 260px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $veryLightBlue;
+    }
+  }
+}

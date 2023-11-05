@@ -1,0 +1,27 @@
+@import "./../../assets/fonts/index.css";
+.footer {
+  width: 424px;
+  height: 106px;
+  margin: 46px 128px 88px;
+}
+.footer__text {
+  font-size: 14px;
+  color: #B1BCC0;
+  line-height: 1.8rem;
+  text-align: center;
+}
+.footer__text-underlining {
+  text-decoration: underline;
+}
+.footer__links {
+  width: 133px;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px auto 0;
+}
+.footer__link {
+  transition: all 0.2s ease-in-out;
+}
+.footer__link:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,7 @@
+@import "./../../assets/fonts/index.css";
+.logo {
+  margin: 78px 70px;
+}
+.logo:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,10 @@
+@import "./../../assets/fonts/index.css";
+@import "./../../assets/colors/index.scss";
+
+.logo {
+    margin: 78px 70px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
