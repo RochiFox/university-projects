@@ -10,6 +10,8 @@ BEGIN
 m := 10;
 n := 5;
 
+RANDOMIZE;
+
 // Filling an array with numbers
 for i := 1 to m do
     for j := 1 to n do
