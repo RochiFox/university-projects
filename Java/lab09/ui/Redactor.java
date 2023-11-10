@@ -1,7 +1,10 @@
 package ui;
 
 import catalog.Catalog;
+
 import media.CompactDisc;
+import media.VinylRecord;
+import media.Cassette;
 import media.Media;
 
 public class Redactor extends UserCommunicator {
@@ -32,7 +35,25 @@ public class Redactor extends UserCommunicator {
         double rating = scanner.nextDouble();
         scanner.nextLine();
 
-        Media media = new CompactDisc(name, author, year, comment, rating);
-        catalog.addMedia(media);
+        System.out.println("Choose a media type:");
+        System.out.println("1 - Compact disc");
+        System.out.println("2 - Vinyl record");
+        System.out.println("3 - Cassette");
+
+        int type = scanner.nextInt();
+        scanner.nextLine();
+        Media media = null;
+
+        if (type == 1) {
+            media = new CompactDisc(name, author, year, comment, rating);
+        } else if (type == 2) {
+            media = new VinylRecord(name, author, year, comment, rating);
+        } else if (type == 3) {
+            media = new Cassette(name, author, year, comment, rating);
+        }
+
+        if (media != null) {
+            catalog.addMedia(media);
+        }
     }
 }
