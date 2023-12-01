@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import catalog.ArrayCatalog;
 import ui.Redactor;
 import ui.Searcher;
 import ui.UserCommunicator;
@@ -9,7 +8,6 @@ import catalog.FileCatalog;
 
 public class Main {
     public static void main(String[] args) {
-        // Catalog catalog = new ArrayCatalog();
         Catalog catalog = new FileCatalog();
         UserCommunicator userCommunicator;
         String mainMenu = "Select a mode:\n" +
