@@ -1,0 +1,27 @@
+﻿program Lab13;
+
+uses
+  RectangleUnit;
+
+var
+  rect1, rect2: TRectangle;
+
+begin
+  // Создаем объекты прямоугольника с помощью конструкторов
+  rect1 := TRectangle.Create(5, 10); // пример значений длины и ширины
+  rect2 := TRectangle.Create(8, 15);
+
+  // Выводим информацию о прямоугольниках
+  rect1.DisplayInfo;
+  rect2.DisplayInfo;
+
+  // Освобождаем память, вызывая деструкторы
+  rect1.Free;
+  rect2.Free;
+end.uses
+  System.SysUtils,
+  RectangleUnit in 'RectangleUnit.pas';
+
+begin
+  
+end.
