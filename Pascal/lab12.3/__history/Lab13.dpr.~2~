@@ -1,0 +1,9 @@
+program Lab13;
+
+uses
+  System.SysUtils,
+  RectangleUnit in 'RectangleUnit.pas';
+
+begin
+  
+end.

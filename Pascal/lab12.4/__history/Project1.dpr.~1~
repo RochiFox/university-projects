@@ -1,0 +1,9 @@
+program Project1;
+
+uses
+  System.SysUtils,
+  Incaps in 'Incaps.pas';
+
+begin
+
+end.
