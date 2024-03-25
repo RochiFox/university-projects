@@ -56,21 +56,39 @@ public class LogicImpl implements Logic {
     
     @Override 
     public Apple getByNumber(int number) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (number < 0 || number >= apples.size()) {
+            return null;
+        }
+        
+        return apples.get(number);
     }
     
     @Override 
     public boolean removeAll() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        apples.clear();
+        
+        return true;
     }
     
     @Override 
     public boolean addToPlace(Apple apple, int place) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (place < 0 || place > apples.size()) {
+            return false;
+        }
+    
+        apples.add(place, apple);
+    
+        return true;
     }
     
     @Override 
     public boolean replace(Apple apple, int place) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (place < 0 || place >= apples.size()) {
+            return false;
+        }
+    
+        apples.set(place, apple);
+    
+        return true;
     }
 }
