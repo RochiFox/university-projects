@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2024/03/28 13:48:32.447,=C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/03/28 13:49:08.098,C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Unit1.pas=C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/03/28 13:49:13.861,C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Project1.dproj=C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2024/03/28 13:49:22.515,C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\RectangleIncaps.pas=C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2024/03/28 13:48:32.000.447,=C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/28 13:49:08.000.098,C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Unit1.pas</Transaction>
+    <Transaction>2024/03/28 13:49:13.000.861,C:\Users\Flace\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Project1.dproj</Transaction>
+    <Transaction>2024/03/28 13:49:22.000.515,C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\Unit1.pas=C:\Users\Flace\OneDrive\Desktop\Projects\university-projects\Pascal\lab12.6\RectangleIncaps.pas</Transaction>
   </Transactions>
 </BorlandProject>
