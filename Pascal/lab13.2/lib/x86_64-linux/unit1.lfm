@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 839
+  Height = 400
+  Top = 343
+  Width = 600
+  Caption = 'Перерахунок маси'
+  ClientHeight = 400
+  ClientWidth = 600
+  Color = clBtnFace
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 136
+    Height = 23
+    Top = 16
+    Width = 383
+    Caption = 'Перерахунок із нафтової барелі в літри і навпаки'
+    Color = clGradientActiveCaption
+    Font.Height = -16
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 17
+    Top = 88
+    Width = 214
+    Caption = 'Міра маси у нафтових барелях'
+    Color = clWindowFrame
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 17
+    Top = 152
+    Width = 129
+    Caption = 'Міра маси у літрах'
+    Color = clGradientActiveCaption
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 456
+    Height = 34
+    Top = 80
+    Width = 100
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 456
+    Height = 34
+    Top = 144
+    Width = 100
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 40
+    Top = 320
+    Width = 224
+    Caption = 'Перерахувати'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Left = 432
+    Height = 40
+    Top = 320
+    Width = 120
+    Caption = 'Вихід'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+end
